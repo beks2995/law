@@ -1,0 +1,37 @@
+$colorText:#ffffff;
+
+.services{
+    background: url(../image/servicesBg.png) center center/cover no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_bg{
+        padding: 35px 0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        .services_hr{
+            margin: 0 auto;
+            height: 2px;
+            border: none;
+            background: $colorText;
+        }
+        .services_title{
+            font-family: 'Work Sans', sans-serif;
+            margin: 60px 0 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $colorText;
+        }
+        .services_info{
+            &__li{
+                font-family: 'Work Sans', sans-serif;
+                font-size: 18px;
+                line-height: 1.5;
+                color: $colorText;
+                text-align: justify;
+            }
+            margin-bottom: 60px;
+        }
+    }
+}

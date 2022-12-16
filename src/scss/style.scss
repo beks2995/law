@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    
+    scroll-behavior: smooth;
+}
+body{
+    background: #A7A5A5;
+}
+
+
+@import './header.scss';
+@import './work.scss';
+@import './services.scss';
+@import './garant.scss';
+@import './contacts.scss';
+@import './footer.scss';
+@import './media.scss';

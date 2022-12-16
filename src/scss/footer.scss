@@ -1,0 +1,48 @@
+#map{
+    height: 350px;
+    width: 100%;
+}
+.footer{
+    padding: 30px 0;
+    background: rgba(0,0,0,0.8);
+    color: #A7A5A5;
+    &_box{
+        &__contacts{
+            display: flex;
+            align-items: center;
+            .footer_logo{
+                width: 120px;
+                height: 120px;
+            }
+            .footer_contacts{
+                &__tel{
+                    text-align: end;
+                    margin-left: 55px;
+                }
+            }
+            .footer_contacts__addres{
+                margin-left: 55px;
+            }
+        }
+        &__social{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            .footer_company{
+
+            }
+            .footer_social{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                &_box{
+                    &__img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
